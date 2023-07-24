@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- tailwind and daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b9e5fb6e75.js" crossorigin="anonymous"></script>
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="flex">
+            <div class="hero min-h-screen">
+                <div class="flex sm:flex-col lg:flex-row">
+                    <div>
+                        <h1 class="text-7xl font-extrabold">It's good <br>
+                            tea time at The <br> Tea House</h1>
+                        <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your
+                            Taste Buds.</p>
+                        <button class="btn">Explore More</button>
+                    </div>
+                    <div class="">
+                        <div>
+                            <img src="./images/banner.png" class="max-w-sm rounded-lg " />
+                        </div>
+                        <div class="flex items-center gap-3 bg-white p-5 w-60 -mt-16">
+                            <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                            <div class="">
+                                <h1 class="text-3xl ">5.00</h1>
+                                <p>Trust Pilot Ratings</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <div class="text-center">
+            <h1 class="text-5xl font-extrabold mb-5">
+                Our Featured Products
+            </h1>
+            <p class="text-xl font-medium ">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't
+                look even slightly believable. </p>
+        </div>
+        <div class="grid grid-cols-4 gap-5">
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Milk Tea!!</h2>
+                    <p>Creamer could be replaced by fresh milk</p>
+                    <div class="card-actions">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- secound card -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Black Tea!</h2>
+                    <p>Creamer could be replaced by fresh milk</p>
+                    <div class="card-actions">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Third card -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Lemon Tea!</h2>
+                    <p>Creamer could be replaced by fresh milk</p>
+                    <div class="card-actions">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- four card -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Green Tea!</h2>
+                    <p>Creamer could be replaced by fresh milk</p>
+                    <div class="card-actions">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
